@@ -1,0 +1,24 @@
+{
+  "name": "now",
+  "version": "0.1.0",
+  "description": "get the highest resolution timestamp available x-browser",
+  "dependencies": {},
+  "devDependencies": {
+    "bigfile": "~0.5.2",
+    "sourcegraph": "~0.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkroso/now.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkroso/now/issues"
+  },
+  "keywords": [
+    "timestamp",
+    "performance.now()",
+    "Date.now()"
+  ],
+  "author": "Jake Rosoman",
+  "license": "MIT"
+}

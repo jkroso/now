@@ -1,0 +1,11 @@
+{
+  "name": "now",
+  "repo": "jkroso/now",
+  "description": "get the highest resolution timestamp available x-browser",
+  "version": "0.1.0",
+  "keywords": ["timestamp","performance.now()","Date.now()"],
+  "scripts": [
+	  "index.js"
+  ],
+  "license": "MIT"
+}

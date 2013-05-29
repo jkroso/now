@@ -1,0 +1,6 @@
+/build
+/dist
+/components
+/node_modules
+/test/built.js
+now.js

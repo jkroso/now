@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+	<script src="now.js"></script>
+	<style>
+		body {
+			font-size: 50px;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		document.body.innerText += 'timestamp: ' + now() + '\n'
+		document.body.innerText += 'min diff: ' + Math.abs(now() - now())
+	</script>
+</body>
+</html>
