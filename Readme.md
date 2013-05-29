@@ -38,16 +38,13 @@ console.log('bench took %dms', start - now())
 // => bench took 10ms
 ``` 
 
-## Running the tests
+## Running the example
 
 ```bash
 $ npm install
 $ make
 ```
-Then open your browser to the `./test` directory.
+
+Then open your browser to the `./example.html`.
 
 _Note: these commands don't work on windows._ 
-
-## License 
-
-[MIT](License)
