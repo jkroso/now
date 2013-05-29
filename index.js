@@ -15,6 +15,6 @@ module.exports = function(){
 
 // fallback
 
-if (!performance && typeof performance.now == 'function') {
+if (!performance || typeof performance.now != 'function') {
 	module.exports = Date.now || function(){ return +(new Date) }
 }
