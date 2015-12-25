@@ -7,11 +7,8 @@
     "serve": "jkroso/serve"
   },
   "repository": "git://github.com/jkroso/now.git",
-  "keywords": [
-    "timestamp",
-    "performance.now()",
-    "Date.now()"
-  ],
+  "keywords": ["timestamp", "performance.now()", "Date.now()"],
+  "files": ["index.js"],
   "author": "Jake Rosoman",
   "license": "MIT"
 }
