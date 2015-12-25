@@ -1,10 +1,5 @@
-GRAPH=node_modules/.bin/sourcegraph -p nodeish,mocha
-COMPILE=node_modules/.bin/_bigfile -p nodeish
+serve: node_modules
+	@$</.bin/serve -Slojp 0
 
-now.js: index.js
-	@$(GRAPH) $< | $(COMPILE) -x now > $@
-
-clean:
-	@rm now.js
-
-.PHONY: all test clean
+node_modules: package.json
+	@npm install

@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <head>
-	<script src="now.js"></script>
 	<style>
 		body {
 			font-size: 50px;
@@ -10,6 +9,7 @@
 </head>
 <body>
 	<script>
+		var now = require('./')
 		document.body.innerText += 'timestamp: ' + now() + '\n'
 		document.body.innerText += 'min diff: ' + Math.abs(now() - now())
 	</script>

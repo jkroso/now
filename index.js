@@ -1,10 +1,9 @@
-
-var global = function(){return this}()
+var global = function(){ return this }()
 var performance = global.performance
 
 /**
  * Get a timestamp
- * 
+ *
  * @return {Number}
  * @api public
  */

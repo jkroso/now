@@ -1,19 +1,12 @@
 {
-  "name": "now",
+  "name": "@jkroso/now",
   "version": "0.1.0",
   "description": "get the highest resolution timestamp available x-browser",
   "dependencies": {},
   "devDependencies": {
-    "bigfile": "~0.5.2",
-    "sourcegraph": "~0.7.1"
+    "serve": "jkroso/serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jkroso/now.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jkroso/now/issues"
-  },
+  "repository": "git://github.com/jkroso/now.git",
   "keywords": [
     "timestamp",
     "performance.now()",
